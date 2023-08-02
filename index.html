@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>selectors</title>
+  <style>
+    /* element selector */
+   p{
+     color:red;
+   }
+   /* id selector */
+   #para1{
+     color:blue;
+   }
+  #para2{
+    color:green;
+  }
+  /* class selector */
+  .myfav{
+    color:violet;
+  }
+  /* id had high preferance */
+  /* group selector */
+  footer,span{
+    color:brown;
+  }
+  </style>
+</head>
+<body>
+  <p id="para1" class="myfav"> my_first line</p>
+  <p id="para2"> my_second line</p>
+  <p class="myfav"> my_third line</p>
+  <p>Lorem ipsum dolor<span> sit amet consectetur, </span>adipisicing elit. Ad, tempora!</p>
+  <footer>This is css!!</footer>
+  
+</body>
+</html>
